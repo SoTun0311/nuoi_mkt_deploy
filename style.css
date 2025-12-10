@@ -311,6 +311,12 @@ h1 {
 .cta-button {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
     background-size: 200% 200%;
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: buttonface;
+    text-decoration: none;
     color: white;
     padding: 16px 45px;
     border: none;
@@ -609,4 +615,5 @@ h1 {
         padding: 8px 12px;
         font-size: 0.85em;
     }
+
 }
